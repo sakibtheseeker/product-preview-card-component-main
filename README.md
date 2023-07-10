@@ -8,8 +8,8 @@
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/resultssummarycomponent-made-with-css-flexbox-ce3i1OkKOD)
-- Live Site URL: (https://sakibtheseeker.github.io/results-summary-component-main/)
+- Solution URL: (https://www.frontendmentor.io/solutions/product-preview-component-with-css-flexbox-zqscjYqxBL)
+- Live Site URL: (https://sakibtheseeker.github.io/product-preview-card-component-main/)
 
 ## My process
 
