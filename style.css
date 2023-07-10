@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
 
 :root{
     --Dark-cyan: hsl(158, 36%, 37%);
@@ -11,6 +14,7 @@
 body
 {
     background-color: var(--Cream);
+    
 }
 /* =========== Main ========== */
 .container{
@@ -39,7 +43,7 @@ body
 
 }
 
-img{
+.mainimg{
     width: 260px;
     height: 400px;
     object-fit: cover;
@@ -57,6 +61,54 @@ img{
     text-align: center;
 }
 
+.firsttitle{
+    text-align: left;
+
+    color: var(--Dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
+
+}
+.secondtitle{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    text-align: left;
+}
+p{
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--Dark-grayish-blue);
+}
+
+.pricecontainer{
+display: flex;
+align-items: center;
+}
+.pricetitle{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--Dark-cyan);
+    margin-right: 10px;
+
+}
+
 .button{
     background-color: var(--Dark-cyan);
+    border-radius: 10px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--White);
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+.cartimg{
+    width: auto;
+    height: auto;
+   justify-content: center;
+   display: flex;
 }
